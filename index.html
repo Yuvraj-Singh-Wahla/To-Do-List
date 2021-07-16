@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="title">My To_Do List</h1>
+        </div>
+        <div class="input-group">
+            <input type="text" id="task" class="statement input" placeholder="Todo Statement">
+            <br>
+            <label for="statement">Priority: </label>
+            <select name="" id="choice" class="statement input">
+                <option value="1">High</option>
+                <option value="2">Medium</option>
+                <option value="3">Low</option>
+            </select>
+            <br>
+            <button class="save button">Save Task</button>
+            <br>
+        </div>
+        <div class="statement">
+            <div class="statement">Task List is below:</div>
+            
+        </div>
+        <div id="output" class="statement">
+
+        </div>
+        <div class="sort">
+            <button class="b1 high button2 button">High</button>
+            <button class="b2 medium button2 button">Medium</button>
+            <button class="b3 low button2 button">Low</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
